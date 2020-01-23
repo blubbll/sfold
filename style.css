@@ -16,11 +16,15 @@ img {
 }
 
 #wrap p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: cyan;
-  top: -8rem;
-  width: 100vw;
-  position: fixed;
+  top: -25%;
+  width: 75%;
+  position: absolute;
+}
+
+red{
+  color: red;
 }
 
 #wrap {
@@ -29,9 +33,8 @@ img {
   height: 160.9mm;
   border: dashed 2px red;
   position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translate(32%, -25%);
+  left: 5%;
+  top: 25%;
   cursor: pointer;
 }
 
