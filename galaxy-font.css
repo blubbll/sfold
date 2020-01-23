@@ -14,3 +14,10 @@ font-style: normal;
 font-weight: normal;
 src: local('SamsungSharpSans-Bold'), url('samsung_s_sharp_by_629lyric-d8y77l9.woff') format('woff');
 }
+
+@font-face {
+font-family: 'SamsungSharpSansBd';
+font-style: normal;
+font-weight: normal;
+src: local('SamsungSharpSansBd'), url('SamsungSharpSansBd.woff2') format('woff');
+}

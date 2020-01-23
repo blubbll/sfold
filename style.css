@@ -2,44 +2,51 @@
 
 body {
   background: black;
-  font-family: "SamsungSharpSans-Bold";
+  font-family: "SamsungSharpSansBd";
   color: white;
   position: fixed;
   overflow: hidden;
+    display: flex;
 }
 
 img {
   width: 117.9mm;
   height: 160.9mm;
-  opacity: 0.25;
+  opacity: 0; /* debug */
 }
 
 #wrap {
-  font-size: 18.3rem;
+  font-size: 17rem;
+  width: 117.9mm;
+  height: 160.9mm;
+  border: dashed 2px red;
+  position: fixed;
+  top: 0;
+  cursor: pointer;
 }
 
 #wrap span {
-  position: fixed;
+  position: absolute;
   font-weight: bold;
 }
 
 #f {
-  top: 19.5rem;
-  left: 2.3rem;
+  top: 21rem;
+  left: 3rem;
 }
 #o {
-  top: -9rem;
-  left: 6rem;
+  top: -8.5rem;
+  left: 3rem;
   transform: rotate(90deg);
 }
 #l {
-  top: 2rem;
-  left: 15rem;
+  top: 2.5rem;
+  left: 14rem;
   /* mirror and rotate */
   transform: scaleX(-1) rotate(-90deg);
 }
 #d {
-  top: 18rem;
-  left: 16rem;
+  top: 19rem;
+  left: 17rem;
   transform: rotate(-90deg);
 }
