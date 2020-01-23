@@ -2,14 +2,16 @@
 
 body {
   background: black;
-  font-family: "Average Sans";
+  font-family: "SamsungSharpSans-Bold";
   color: white;
+  position: fixed;
+  overflow: hidden;
 }
 
-img{
+img {
   width: 117.9mm;
   height: 160.9mm;
-  opacity: .3;
+  opacity: 0.25;
 }
 
 #wrap {
@@ -32,7 +34,12 @@ img{
 }
 #l {
   top: 2rem;
-  left: 5rem;
+  left: 15rem;
+  /* mirror and rotate */
+  transform: scaleX(-1) rotate(-90deg);
 }
 #d {
+  top: 18rem;
+  left: 16rem;
+  transform: rotate(-90deg);
 }
