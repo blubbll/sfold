@@ -13,7 +13,7 @@ img{
 }
 
 #wrap {
-  font-size: 18rem;
+  font-size: 18.3rem;
 }
 
 #wrap span {
@@ -22,14 +22,17 @@ img{
 }
 
 #f {
-  top: 19rem;
+  top: 19.5rem;
+  left: 2.3rem;
 }
 #o {
-  top: -3px;
-  left: 15px;
+  top: -9rem;
+  left: 6rem;
   transform: rotate(90deg);
 }
 #l {
+  top: 2rem;
+  left: 5rem;
 }
 #d {
 }
