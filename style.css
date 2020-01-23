@@ -1,0 +1,35 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background: black;
+  font-family: "Average Sans";
+  color: white;
+}
+
+img{
+  width: 117.9mm;
+  height: 160.9mm;
+  opacity: .3;
+}
+
+#wrap {
+  font-size: 18rem;
+}
+
+#wrap span {
+  position: fixed;
+  font-weight: bold;
+}
+
+#f {
+  top: 19rem;
+}
+#o {
+  top: -3px;
+  left: 15px;
+  transform: rotate(90deg);
+}
+#l {
+}
+#d {
+}
