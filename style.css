@@ -52,11 +52,12 @@ img {
 
 #wrap:hover {
   background: rgba(255, 255, 255, 0.1);
-  transform: translate(0.1rem, 0.1rem);
+  color: yellow;
 }
 #wrap:active {
-  background: rgba(255, 255, 255, 0.25);
-  transform: translate(0.25rem, 0.25rem);
+  background: rgba(0, 255, 255, 0.1);
+  color: cyan;
+  transform: translate(0.1rem, 0.1rem);
 }
 
 #wrap span {
@@ -80,7 +81,7 @@ img {
   transform: scaleX(-1) rotate(-90deg);
 }
 #d {
-  top: 18.5rem;
+  top: 18rem;
   left: 16.5rem;
-  transform: rotate(-90deg);
+  transform: rotate(-90deg) rotateY(28deg);
 }
