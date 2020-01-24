@@ -12,30 +12,51 @@ body {
 img {
   width: 117.9mm;
   height: 160.9mm;
-  opacity: 0; /* debug */
+  opacity: 0.1; /* debug */
+  filter: drop-shadow(2px 4px 6px black);
 }
 
-#wrap p {
+p {
   font-size: 1.5rem;
   color: cyan;
-  top: -25%;
-  width: 75%;
-  position: absolute;
+  top: 1rem;
+  left: 5vw;
+  width: 95vw;
+  margin: 0;
+  position: fixed;
 }
 
-red{
+red {
   color: red;
+}
+down {
+  filter: grayscale(1) brightness(2);
+}
+
+#wrap,
+img {
+  position: fixed;
+  left: 5%;
+  top: 12%;
 }
 
 #wrap {
+  overflow: hidden;
+
   font-size: 17rem;
   width: 117.9mm;
   height: 160.9mm;
   border: dashed 2px red;
-  position: absolute;
-  left: 5%;
-  top: 25%;
   cursor: pointer;
+}
+
+#wrap:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translate(0.1rem, 0.1rem);
+}
+#wrap:active {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translate(0.25rem, 0.25rem);
 }
 
 #wrap span {
@@ -44,22 +65,22 @@ red{
 }
 
 #f {
-  top: 21rem;
-  left: 3rem;
+  top: 20.3rem;
+  left: 2.75rem;
 }
 #o {
-  top: -8.2rem;
-  left: 3rem;
+  top: -9rem;
+  left: 2.6rem;
   transform: rotate(90deg);
 }
 #l {
-  top: 2.5rem;
-  left: 14rem;
+  top: 2.2rem;
+  left: 13rem;
   /* mirror and rotate */
   transform: scaleX(-1) rotate(-90deg);
 }
 #d {
-  top: 19rem;
+  top: 18.5rem;
   left: 16.5rem;
   transform: rotate(-90deg);
 }
